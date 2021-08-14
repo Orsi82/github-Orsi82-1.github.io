@@ -1,0 +1,62 @@
+img {
+    width: 100%;
+    height: 200px;
+    
+    
+  }
+  header {
+    font-family: ‘Abril Fatface’;
+    font-color: #222;
+    position: relative;
+  }
+  header h3 {
+    font-size: 30px; 
+  }
+  h3 {
+    font-family: ‘Josefin Sans’;
+    font-color: #222;
+  }
+  h2 {
+    font-family: ‘Merriweather’;
+    font-size: 15px;
+    }
+  div {
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    left: 25%;
+  }
+  .anakin {
+    position: absolute;
+    top: 20px;
+    width: 500px;
+     }
+  h1 {
+    font-size: 50px;
+  }
+  
+  p {
+    display: inline;
+    font-color: #222;
+    font-size: 20px;
+     }
+  blockquote {
+    
+    width: 600px;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    margin: 20px;
+    padding: 30px 0;
+    font-size: 30px;
+    position: relative;
+    
+    }
+  blockquote::before {
+    content: '\201C';
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    font-size: 70px;
+  }
+  
